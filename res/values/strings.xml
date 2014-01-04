@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Luido 4</string>
+    <string name="Playlist">Playlista</string>
+    <string name="author">Paweł Wróblewski</string>
+    <string name="menu_settings">Usuń</string>
+    <string name="title_activity_edit">Playlista</string>
+    <string name="title_activity_play">Playlista</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wlasciwosci_show">Wlasciwosci_show</string>
+
+</resources>

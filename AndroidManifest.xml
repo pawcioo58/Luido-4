@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pawcioo5.luido4"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:launchMode="singleTask"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.pawcioo5.luido4.Play"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pawcioo5.luido4.Edit"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.pawcioo5.luido4.MainActivity"
+            android:label="@string/title_activity_play"
+            android:theme="@android:style/Theme.Black" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pawcioo5.luido4.Wlasciwosci_show"
+            android:label="@string/title_activity_wlasciwosci_show"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.pawcioo5.luido4.SettingsActivity"
+            android:label="@string/title_activity_settingsactivity" >
+        </activity>
+         <service android:enabled="true" android:name=".Music_service"><intent-filter>
+                <action android:name="com.pawcioo5.luido5.action.PLAY" />
+                <action android:name="com.pawcioo5.luido5.action.NEXT" />
+                <action android:name="com.pawcioo5.luido5.action.BACK" />
+                <action android:name="com.pawcioo5.luido5.action.LOOP" />
+                <action android:name="com.pawcioo5.luido5.action.RANDOM" />
+                <action android:name="com.pawcioo5.luido5.action.LOADATA" />
+                <action android:name="com.pawcioo5.luido5.action.PLAYTO" />
+                <action android:name="com.pawcioo5.luido5.action.MY_ACTION" />
+                <action android:name="com.pawcioo5.luido5.action.SEEK" />
+            </intent-filter></service>
+    </application>
+
+</manifest>

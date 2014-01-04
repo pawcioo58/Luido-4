@@ -1,0 +1,35 @@
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/relative_edit"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="Dodaj do listy"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/base"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/elv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/linearlayout1"
+            android:layout_marginLeft="4dp" >
+
+        </ListView>
+
+    </RelativeLayout>

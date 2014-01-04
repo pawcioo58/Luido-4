@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="title_activity_settingsactivity">Ustawienia</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_social_recommendations">Autoodtwarzanie</string>
+    <string name="pref_description_social_recommendations">Odtwarzaj muzykę automatycznie po włączeniu programu</string>
+    <string name="pref_title_add_friends_to_messages">Po ostatnim utworze</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>powtórz ostatni utwór</item>
+        <item>odtwarzaj od początku</item>
+        <item>zakończ odtwarzanie</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array><string-array name="motyw_name">
+        <item>błękitny</item>
+        <item>buraczkowy</item>
+        <item>czarny</item>
+        <item>czerwony</item>
+        <item>niebieski</item>
+        <item>pomarańczowy</item>
+        <item>różowy</item>
+        <item>zielony</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string-array name="motyw_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    
+    
+
+</resources>
