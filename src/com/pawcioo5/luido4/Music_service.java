@@ -338,7 +338,7 @@ flags, int startId) {
     		 //INCOMING call
     			 if(sluchawki_online)sluchawki_call=true;
     			 else sluchawki_call=false;
-    		 if(player!=null){
+    			 if(player.isPlaying()){
     			 Log.d("xxxxxxxxxxxxxxxx", "pause music");
     			 pause_music_call();
     				// call=true;
